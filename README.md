@@ -1,11 +1,14 @@
 # go_server_to_db
+
 There web server.
-It gets url like 3vb.ru:7007/sql?book_id=1
-It connects to postgres
+
+It gets url query.
+
+It connects to postgres.
+
 It gives sql query result in browser.
 
-go to 
-
+go to:
 3vb.ru:7007/sql?book_id=1
 
 Try to change book_id and see.
