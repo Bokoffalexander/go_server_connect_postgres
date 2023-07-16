@@ -1,14 +1,15 @@
 # go_server_to_db
 
-There web server.
+There is a web server.
 
-It gets url query.
+1.It gets url query.
 
-It connects to postgres.
+2.It connects to postgres.
 
-It gives sql query result in browser.
+3.It gives sql query result in browser.
 
 go to:
+
 3vb.ru:7007/sql?book_id=1
 
 Try to change book_id and see.
