@@ -1,32 +1,10 @@
 # go_server_to_db
 
-There is a web server.
+Веб-сервер получает SQL запрос через URL. 
+Конектимся к базе данных postgres, используя lib/pq.
+Находим в БД данный select. 
+Возвращаем в окно браузера ответ сервера. 
 
-1.It gets url query.
-
-2.It connects to postgres.
-
-3.It gives sql query result in browser.
-
-go to:
-
-3vb.ru:7007/sql?book_id=1
-
-Try to change book_id and see.
-
-Table:
-
-1-----|Мастер и Маргарита
-
-2-----|Белая гвардия
-
-3-----|Идиот
-
-4-----|Братья Карамазовы
-
-5-----|Игрок
-
-6-----|Стихотворения и поэмы
-
-""""""""""""""""""""""""""""""""
-
+Попробовать как работает на моём сервере:
+http://3vb.ru:7007/sql?book_id=1
+Меняете значение book_id  и видите результат. 
